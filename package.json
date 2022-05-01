@@ -1,0 +1,28 @@
+{
+  "name": "vue-pioneer-xd",
+  "version": "1.0.0",
+  "description": "A sample application to test Vue.",
+  "main": "backend/index.js",
+  "author": "Umar Iqbal",
+  "license": "MIT",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js",
+    "build": "cd frontend && npm install --only=dev && npm install && npm run build"
+  },
+  "engines": {
+    "node": "14.18.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "moment": "^2.29.3",
+    "serve-static": "^1.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
